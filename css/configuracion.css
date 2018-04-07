@@ -64,6 +64,14 @@ hgroup
     text-align: right;
 }
 
+h2 
+{
+/*    padding-top: 70px;
+    color: #f47920;
+    text-shadow: 1px 1px 1px #000000;*/
+    text-align: center;
+}
+
 #imagen
 {
     white-space: normal;
@@ -139,7 +147,7 @@ hgroup
 .menuCSS3 ul li ul 
 {
     display: none;
-    width: 5ex;
+    width: 10ex;
 }
 
 .menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover 
@@ -149,15 +157,14 @@ hgroup
 
 .menuCSS3 ul li ul li 
 {
-    width: 5ex;
+    width: 10ex;
     height: 10px;
     padding: 0;
 }
 
 .menuCSS3 ul li ul li a 
 {
-    width: 5ex;
+    width: 30ex;
     height: 10px;
     padding: 0;
 }
-
