@@ -18,10 +18,10 @@ body
 }
 
 
-#enlace{
+/*#enlace{
     color:  red;
     background-color:  blue;
-}
+}*/
 
 
 header,section, footer, aside, nav, article, figure, figcaption,
@@ -97,8 +97,9 @@ h2
 
 #pie 
 {
+    width: 98%;
+	min-height: 75px;
     clear: both;
-    text-align: left;
     padding: 0 20px 20px 20px;
     border: 0;
     color: #ffffff;
@@ -133,7 +134,7 @@ h2
 .menuCSS3 a 
 {
     display: block;
-    padding: 2em;
+    padding: 1em;
     /*background-color: #F9B53C;*/
     text-decoration: none;
     color: #ffffff;
@@ -141,7 +142,8 @@ h2
 
 .menuCSS3 a:hover 
 {
-    background-color: #CC673B;
+	text-decoration: underline;
+ /*   background-color: #CC673B;*/
 }
 
 .menuCSS3 ul li ul 
