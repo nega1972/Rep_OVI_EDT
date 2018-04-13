@@ -11,11 +11,10 @@
 <body>
 	<div id="agrupar">
 		<header id="cabecera">
-			<div >
-				<div style="float: left;" ><img id = "imagen" src="img/logounad.PNG"/> 	</div>
-				<div style="float: right;" ><h1  id = "headercontent">Etapas de desarrollo de software</h1></div>
-				<div style="float: right;" ><img id = "imagen" src="img/imagenppal.JPG"/> 	</div>
-				
+			<div style="display: flex; flex-direction: row;">
+				<div style="width: 20% ;margin: 10px 0px 0px 0px;text-align:center;"><img id = "imagen" src="img/logounad.png"/> 	</div>
+				<div style="width: 50% ;margin: 10px 0px 0px 0px;text-align:center;" ><h1  id = "headercontent">Etapas de desarrollo de software</h1></div>
+				<div style="width: 30% ;margin: 10px 0px 0px 0px;text-align:center;" ><img id = "imagen" src="img/imagenppal.jpg"/> 	</div>
 			</div>
 		</header>
 		<nav id="menu " class="menuCSS3 menu">
@@ -46,29 +45,37 @@
 			</ul>
 		</nav>
 		<section id="seccion">
-			<div style="width: 45%; height: 500px; float: left;margin:0px 15px 0px 15px;text-align:justify;">
-				<h1>Despliegue</h1>
+			<div style="display: flex; flex-direction: row;">
+				<div style="width: 45%; margin:0px 15px 0px 15px;text-align:justify;">
+					<h1>Despliegue</h1>
 
-				<p>En la etapa de despliegue se realiza la instalación del software para ponerlo en funcionamiento.<br /><br />Se debe de tener en cuenta todo el entorno en el que debe funcionar tanto de hardware como de software tales como:</p>
+					<p>En la etapa de despliegue se realiza la instalación del software para ponerlo en funcionamiento.<br /><br />Se debe de tener en cuenta todo el entorno en el que debe funcionar tanto de hardware como de software tales como:</p>
+					<ul>
+						<li>
+							<p>Equipos y su configuración física.</p>
+						</li>
+						<li>
+							<p>Redes de interconexión entre los equipos.</p>
+						</li>
+						<li>
+							<p>Acceso a sistemas externos.</p>
+						</li>
+						<li>
+							<p>Sistema operativo requerido.</p>
+						</li>
+						<li>
+							<p>Bibliotecas requeridas.</p>
+						</li>					
+					</ul>
 
-				<ul>
-					<li>
-						<p>Equipos y su configuración física.</p>
-					</li>
-					<li>
-						<p>Redes de interconexión entre los equipos.</p>
-					</li>
-					<li>
-						<p>Acceso a sistemas externos.</p>
-					</li>
-					<li>
-						<p>Sistema operativo requerido.</p>
-					</li>
-					<li>
-						<p>Bibliotecas requeridas.</p>
-					</li>					
-				</ul>
-
+					<p>Con la aceptación por parte del cliente se da por terminado el proyecto.	</p>		
+				</div> 
+				
+				<div style="width: 45%; margin: 0px 15px 0px 15px;text-align:center;">
+					<h2>Ejemplo de una aplicación instalada</h2>
+					<img src="img/menu.PNG"/>
+				</div>
+				<div style="clear: both;"/>
 				<p>Con la aceptación por parte del cliente se da por terminado el proyecto.	</p>		
 			</div> 
 			
@@ -76,20 +83,19 @@
 				<h2>Ejemplo de una aplicación instalada</h2>
 				<img src="img/menu.PNG"/>
 			</div>
-			<div style="clear: both;"/>
 		</section>
 		<footer id="pie">
-			<div style="width: 60%; height: 500px; float: left;margin:0px 15px 0px 15px;text-align:justify;">
-				<br />
-				Realizado por: Nancy Stella Guevara Angel <br /><br />
-				Universidad Nacional Abierta y a Distancia - UNAD - (2018) 
-			</div>
-			<div style="width: 30%; height: 500px; float: left;right:0px 15px 0px 0px;">
-				<br />
-				Numero de visitas:
-				<a href="http://www.reliablecounter.com" target="_blank"><img src="http://www.reliablecounter.com/count.php?page=12021708&digit=style/plain/6/&reloads=1" alt="" title="" border="0"></a> <br /><br /> 
-				<a style="color: #ffffff;" class="twitter-timeline" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Twitter Universidad UNAD</a> 
-<!-- 				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+			<div style="display: flex; flex-direction: row;">
+				<div style="width: 60%; margin:0px 15px 0px 15px;text-align:justify;">
+					<br />
+					Realizado por: Nancy Stella Guevara Angel <br /><br />
+					Universidad Nacional Abierta y a Distancia - UNAD - (2018) 
+				</div>
+				<div style="width: 30%; margin: 0px 15px 0px 0px;">
+					<br />
+					Numero de visitas:
+					<a href="http://www.reliablecounter.com" target="_blank"><img src="http://www.reliablecounter.com/count.php?page=12021708&digit=style/plain/6/&reloads=1" alt="" title="" border="0"></a> <br /><br /> 
+				</div>
 			</div>
 		</footer>
 	</div>
